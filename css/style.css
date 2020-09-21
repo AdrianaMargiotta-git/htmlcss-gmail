@@ -1,0 +1,80 @@
+/* regole generali */
+
+* {
+  margin: 4px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg");
+  color: white;
+}
+
+/* contenitore blocco di pagina */
+
+#contenitore{
+  width: 90%;
+  margin: 0 auto;
+}
+
+  /*intestazione della pagina */
+
+.logo{
+  color: white;
+  width: 100px;
+}
+
+.inizio1{
+  display: inline-block;
+  color: white;
+  font-size: 40px;
+}
+
+  /*sezione ricerca */
+#number{
+  background-color: orange;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+  /*sezione lista mail */
+.bianco{
+  background-color: white;
+}
+
+.grigio{
+  background-color: lightgrey;
+}
+
+.column{
+  color: black;
+}
+
+.column-left{
+  display: inline-block;
+}
+
+.column-right{
+  display: inline-block;
+}
+
+.subject{
+
+}
+
+  /*piè di pagina*/
+footer{
+  text-align: center;
+}
+
+
+
+
+
+/* debug
+header, section, footer {
+  height: 150px;
+  background-color: red;
+  margin: 20px 0;
+}*/
