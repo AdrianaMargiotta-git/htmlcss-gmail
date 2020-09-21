@@ -1,0 +1,128 @@
+/* regole generali */
+
+* {
+  margin: 4px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg");
+  color: white;
+}
+
+/* contenitore blocco di pagina */
+
+#contenitore{
+  width: 90%;
+  margin: 0 auto;
+}
+
+  /*intestazione della pagina */
+
+.logo{
+  color: white;
+  width: 100px;
+}
+
+.inizio1{
+  display: inline-block;
+  color: white;
+  font-size: 40px;
+}
+
+input[type=text]{
+  width: 50%;
+}
+
+
+.scrivi{
+  background-color: white;
+  border-radius: 50%;
+  width: 10%;
+}
+
+h2{
+  color: black;
+}
+
+#number{
+
+}
+
+  /*sezione lista mail */
+ .total{
+  /*width: 300px;*/
+  background-color: green;
+  margin: auto;
+  display: inline;
+  width: 100%;
+  height: 150px;
+}
+
+a:link{
+  color: black;
+}
+
+.total:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.first{
+  float: left;
+  background-color: white;
+  opacity: 40%;
+  width: 300px;
+  /*height: 300px;*/
+  /*display: inline-block;*/
+}
+
+.second{
+  float: left;
+  background-color: blue;
+  width: 1000px;
+  /*height: 300px;*/
+  /*display: inline-block;*/
+}
+
+.bianco{
+  background-color: white;
+}
+
+.grigio{
+  background-color: lightgrey;
+}
+
+.column{
+  color: black;
+}
+
+.column-left{
+  display: inline-block;
+}
+
+.column-right{
+  display: inline-block;
+}
+
+.subject{
+
+}
+
+  /*piè di pagina*/
+footer{
+  text-align: center;
+}
+
+
+
+
+
+/* debug
+header, section, footer {
+  height: 150px;
+  background-color: red;
+  margin: 20px 0;
+}*/
